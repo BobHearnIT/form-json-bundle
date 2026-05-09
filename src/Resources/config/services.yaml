@@ -1,0 +1,11 @@
+services:
+  _instanceof:
+    BobHearnIT\FormJsonBundle\Model\FormSerializerInterface:
+      tags: ['form_json.serializer']
+    BobHearnIT\FormJsonBundle\Model\FormSerializerExtensionInterface:
+      tags: ['form_json.serializer_extension']
+
+  BobHearnIT\FormJsonBundle\Serializer\Serializer:
+
+  BobHearnIT\FormJsonBundle\Serializer\RadioSerializer:
+  BobHearnIT\FormJsonBundle\Serializer\TextSerializer:

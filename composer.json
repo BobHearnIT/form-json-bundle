@@ -1,0 +1,38 @@
+{
+    "name":  "bobhearnit/form-json-bundle",
+    "authors": [
+        {
+            "name": "BobHearnIT",
+            "email": "caudurieau@gmail.com"
+        }
+    ],
+    "keywords": ["symfony", "form", "json"],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "symfony/config": "^7.4",
+        "symfony/dependency-injection": "^7.4",
+        "symfony/form": "^7.4",
+        "symfony/http-kernel": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5",
+        "symfony/framework-bundle": "^7.4",
+        "symfony/phpunit-bridge": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BobHearnIT\\FormJsonBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BobHearnIT\\FormJsonBundle\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "lock": false
+    }
+}
